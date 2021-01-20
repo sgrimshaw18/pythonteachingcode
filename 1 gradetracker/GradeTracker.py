@@ -44,7 +44,7 @@ def averageStudents():
         print(student,' average ',average)
 
 def main():
-    print("User: " + login)
+    print("User:" + login)
     #Here we present our main menu options once a person logs in successfully.
     print("""
     Welcome to the Grade Tracker
@@ -72,10 +72,10 @@ def main():
     else:
         print('Valid option not selected.') #need to cause it to reprompt
 
-login = input('User: ')
+login = input('User:Faculty1 ')
 
 if login in admins:
-    password = input('Password: ')
+    password = input('Password:ABC123 ')
     if admins[login] == password:
         print('Welcome,',login)
         #now run the code
